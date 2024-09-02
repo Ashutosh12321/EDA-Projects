@@ -1,0 +1,11 @@
+print(">>>User Information<<<")
+name=input("Please enter your name:")
+age=input("Please enter your age:")
+designation=input("Please enter your designation:")
+
+if name!=None and age>=18:
+	print(f"Name is: {name}")
+	print(f"Age is: {age}")
+	print(f"Designation is: {designation}")
+else:
+	print("!!!Access Denied!!!")
